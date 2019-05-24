@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="demo:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fc08479-0bb4-4ada-aba2-4a289887c5be" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/App.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="145" column="42" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="JUnit4 Test Class" />
+        <option value="Kotlin Script" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>khai</find>
+      <find>degAngle</find>
+      <find>400</find>
+      <find>2.54</find>
+      <find>PORTRAIT</find>
+      <find>Paper</find>
+      <find>mainClass</find>
+      <find>printersComboBoxes</find>
+      <find>\n</find>
+      <find>ComboBox</find>
+      <find>'</find>
+      <find>JFXComboBox</find>
+      <find>common</find>
+      <find>cptService</find>
+      <find>subscribe</find>
+      <find>id</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>3</replace>
+      <replace>J</replace>
+      <replace>&quot;</replace>
+      <replace>ComboBox</replace>
+      <replace>io</replace>
+      <replace>restaurantId</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/Template.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/Printer.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/viewModels/LoginViewModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/viewModels/SetupViewModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/viewModels/CPTViewModel.kt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thopham/projects/desktop/demo/domain/service/PrinterServiceTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/CPTService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/PrinterService.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/Category.kt" />
+        <option value="$PROJECT_DIR$/build/gradle.kts" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/io/Errors.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/io/FxmlPaths.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/common/FxmlPaths.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/RxLoginController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/RxSetupController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/RxPrinterController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/RxCPTService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/RxPrinterService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/RxUserService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/RxTemplateService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/UserService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/common/Schedulers.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/rx/RxTemplateService.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/login.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/setup.fxml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/LoginController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/PrinterController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/SetupController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/rx/PrinterAPI.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/rx/RxPrinterAPI.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/SecurityConfig.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/customViews/customViews.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/rx/RxLoginController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/CPT.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/repository/PrintTeaRepository.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/PrintTea.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/repository/CPTRepository.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/rx/RxCPTService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/printTeaForm/Toping.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/rx/RxPrinterController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/PrintFormAPI.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/PrinterAPI.kt" />
+        <option value="$PROJECT_DIR$/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/rx/RxUserService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/printTeaForm/Detail.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/rx/RxPrintTeaService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/rx/RxPrinterService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/rx/RxSetupController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/App.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="868" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="weSaveAP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="rx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="printTeaForm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/images" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.thopham.projects.desktop.demo.controller.rx" />
+      <recent name="com.thopham.projects.desktop.demo.domain.service.rx" />
+      <recent name="com.thopham.projects.desktop.demo.domain.api.responseModels" />
+      <recent name="com.thopham.projects.desktop.demo.models.apiModels" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.thopham.projects.desktop.demo.domain.service" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.thopham.projects.desktop.demo.domain.api.rx" />
+      <recent name="com.thopham.projects.desktop.demo.domain.service" />
+      <recent name="com.thopham.projects.desktop.demo.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Man\IdeaProjects\demo\src\main\resources\images" />
+      <recent name="C:\Users\Man\IdeaProjects\demo\src\main\resources\icons" />
+      <recent name="C:\Users\Man\IdeaProjects\demo\productions" />
+      <recent name="C:\Users\Man\IdeaProjects\demo\src\main\kotlin\com\thopham\projects\desktop\demo" />
+      <recent name="C:\Users\Man\IdeaProjects\demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\thopv\IdeaProjects\demo\src\main\java\com\thopham\projects\desktop\demo\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.demo [build]">
+    <configuration name="demo [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="demo [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="demo [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Djava.awt.headless=true" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PrinterServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thopham.projects.desktop.demo.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thopham.projects.desktop.demo.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.thopham.projects.desktop.demo.domain.service.PrinterServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrinterServiceTest.testPrintAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thopham.projects.desktop.demo.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thopham.projects.desktop.demo.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.thopham.projects.desktop.demo.domain.service.PrinterServiceTest" />
+      <option name="METHOD_NAME" value="testPrintAPI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thopham.projects.desktop.demo.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.demo [run]" />
+      <item itemvalue="Gradle.demo [build]" />
+      <item itemvalue="Gradle.demo [bootJar]" />
+      <item itemvalue="JUnit.PrinterServiceTest.testPrintAPI" />
+      <item itemvalue="JUnit.PrinterServiceTest" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.demo [run]" />
+        <item itemvalue="Gradle.demo [build]" />
+        <item itemvalue="JUnit.PrinterServiceTest.testPrintAPI" />
+        <item itemvalue="JUnit.PrinterServiceTest" />
+        <item itemvalue="Gradle.demo [bootJar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fc08479-0bb4-4ada-aba2-4a289887c5be" name="Default Changelist" comment="" />
+      <created>1557453880333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557453880333</updated>
+      <workItem from="1557453881667" duration="1217000" />
+      <workItem from="1557455165090" duration="2249000" />
+      <workItem from="1557457657644" duration="6842000" />
+      <workItem from="1557475163057" duration="4477000" />
+      <workItem from="1557535488073" duration="5480000" />
+      <workItem from="1557542484116" duration="7314000" />
+      <workItem from="1557639909357" duration="4875000" />
+      <workItem from="1557708669176" duration="52000" />
+      <workItem from="1557709117893" duration="4893000" />
+      <workItem from="1557715089290" duration="8341000" />
+      <workItem from="1557733151390" duration="3744000" />
+      <workItem from="1557751832744" duration="21000" />
+      <workItem from="1557795980538" duration="8458000" />
+      <workItem from="1557805043670" duration="2521000" />
+      <workItem from="1557808548509" duration="1438000" />
+      <workItem from="1557815745411" duration="83000" />
+      <workItem from="1557841732126" duration="99000" />
+      <workItem from="1557881729160" duration="384000" />
+      <workItem from="1557882167186" duration="72000" />
+      <workItem from="1557882431958" duration="1410000" />
+      <workItem from="1557884833825" duration="1697000" />
+      <workItem from="1557887620298" duration="220000" />
+      <workItem from="1557888497271" duration="2307000" />
+      <workItem from="1557890890484" duration="679000" />
+      <workItem from="1557891614311" duration="2231000" />
+      <workItem from="1557894181239" duration="1796000" />
+      <workItem from="1557968516745" duration="980000" />
+      <workItem from="1557969562924" duration="3340000" />
+      <workItem from="1557973389490" duration="3539000" />
+      <workItem from="1557977315499" duration="8000" />
+      <workItem from="1557977532217" duration="328000" />
+      <workItem from="1558056426341" duration="816000" />
+      <workItem from="1558065055185" duration="26000" />
+      <workItem from="1558065142804" duration="421000" />
+      <workItem from="1558065588306" duration="3335000" />
+      <workItem from="1558141035399" duration="5528000" />
+      <workItem from="1558146909483" duration="8556000" />
+      <workItem from="1558313981591" duration="3013000" />
+      <workItem from="1558317137373" duration="630000" />
+      <workItem from="1558317826870" duration="8917000" />
+      <workItem from="1558327243808" duration="1006000" />
+      <workItem from="1558375539313" duration="86000" />
+      <workItem from="1558401159613" duration="7290000" />
+      <workItem from="1558408505276" duration="108000" />
+      <workItem from="1558383692745" duration="4065000" />
+      <workItem from="1558574178723" duration="2828000" />
+      <workItem from="1558578197771" duration="9372000" />
+      <workItem from="1558661153552" duration="10712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PrinterServiceTest_testPrintAPI - 2019.05.18 at 09h 11m 08s.xml">
+      <configuration name="PrinterServiceTest.testPrintAPI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterServiceTest - 2019.05.18 at 09h 12m 19s.xml">
+      <configuration name="PrinterServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterServiceTest_testPrintAPI - 2019.05.18 at 09h 14m 02s.xml">
+      <configuration name="PrinterServiceTest.testPrintAPI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterServiceTest_testPrintAPI - 2019.05.18 at 09h 15m 24s.xml">
+      <configuration name="PrinterServiceTest.testPrintAPI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterServiceTest_testPrintAPI - 2019.05.18 at 09h 15m 43s.xml">
+      <configuration name="PrinterServiceTest.testPrintAPI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterServiceTest_testPrintAPI - 2019.05.18 at 09h 16m 40s.xml">
+      <configuration name="PrinterServiceTest.testPrintAPI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterServiceTest_testPrintAPI - 2019.05.18 at 09h 17m 17s.xml">
+      <configuration name="PrinterServiceTest.testPrintAPI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterServiceTest_testPrintAPI - 2019.05.18 at 09h 19m 46s.xml">
+      <configuration name="PrinterServiceTest.testPrintAPI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterServiceTest_testPrintAPI - 2019.05.18 at 09h 20m 41s.xml">
+      <configuration name="PrinterServiceTest.testPrintAPI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterServiceTest_testPrintAPI - 2019.05.18 at 09h 21m 40s.xml">
+      <configuration name="PrinterServiceTest.testPrintAPI" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="147804000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5417349" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.37806875" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.45008183" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.44189852" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32419354" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Gradle" order="3" visible="true" weight="0.20347957" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/PrinterController.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/SetupController.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/LoginController.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/rx/RxTemplateService.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/rx/PrinterAPI.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/rx/RxPrinterAPI.kt" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.7.RELEASE/7feb22791b2050b096e5ecf876284dc06f9b99b3/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.7.RELEASE/7feb22791b2050b096e5ecf876284dc06f9b99b3/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/CorsRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.7.RELEASE/8b60bd1d7e7b8cf820aab75f4bc6bf914fbbac1b/spring-web-5.1.7.RELEASE-sources.jar!/org/springframework/web/cors/CorsConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/PrinterService.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/CPTService.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/viewModels/CPTViewModel.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/viewModels/LoginViewModel.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/viewModels/SetupViewModel.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/SecurityConfig.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="e#43#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/DeviceAPI.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.1.8.RELEASE/b1c7c71e7e3eea24a59cfdbc974d0ed555d02cae/spring-data-commons-2.1.8.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/repository/PrintTeaRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#61#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/PrintTea.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/CPT.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/repository/CPTRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/printTeaForm/Toping.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa3044.4587/Toping.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#1213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa3044.5074/Json4Kotlin_Base.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#1213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/rx/RxCPTService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/PrintFormAPI.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.8/ad84eaacebe8ef666a792794f50c6702d6951d0/rxjava-2.2.8-sources.jar!/io/reactivex/Completable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="424" column="30" selection-start-line="424" selection-start-column="30" selection-end-line="424" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/application/Platform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="148" column="23" selection-start-line="148" selection-start-column="23" selection-end-line="148" selection-end-column="23" />
+          <folding>
+            <element signature="e#6860#6861#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/PrinterAPI.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/customViews/customViews.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/CategoryAPI.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="45" column="86" selection-start-line="45" selection-start-column="86" selection-end-line="45" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/stage/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1197" column="16" selection-start-line="1197" selection-start-column="16" selection-end-line="1197" selection-end-column="16" />
+          <folding>
+            <element signature="e#45414#45415#0" expanded="true" />
+            <element signature="e#45447#45448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/api/UserAPI.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.desktop/java/awt/HeadlessException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.desktop/java/awt/PopupMenu.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.desktop/javax/swing/SwingUtilities.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="817" column="23" selection-start-line="817" selection-start-column="23" selection-end-line="817" selection-end-column="23" />
+          <folding>
+            <element signature="e#32380#32381#0" expanded="true" />
+            <element signature="e#32425#32426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.base/java/util/concurrent/RunnableFuture.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.base/java/util/concurrent/FutureTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/rx/RxLoginController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/rx/RxUserService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="e#61#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/models/printTeaForm/Detail.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/rx/RxSetupController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="85" column="54" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/rx/RxPrintTeaService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/com/sun/javafx/tk/Toolkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="737" column="33" selection-start-line="737" selection-start-column="33" selection-end-line="737" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/controller/rx/RxPrinterController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/domain/service/rx/RxPrinterService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/images/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.desktop/java/awt/Font.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="652" column="23" selection-start-line="652" selection-start-column="23" selection-end-line="652" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/thopham/projects/desktop/demo/App.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="145" column="42" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>demo:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (demo.test)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>main|demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

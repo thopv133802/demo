@@ -1,0 +1,14 @@
+
+
+.MaterialButton{
+    -fx-background-color: "#ffb52d";
+    -fx-text-fill: "#fff"
+}
+.weSaveButton{
+    -fx-background-color: "#ffb52d";
+    -fx-text-fill: "#fff"
+}
+.weSaveTextField{
+    -fx-focus-color: "#ffb52d";
+    -fx-unfocus-color: "#fff"
+}

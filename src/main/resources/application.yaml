@@ -1,0 +1,32 @@
+
+driverClassName: org.sqlite.JDBC
+url: jdbc:sqlite:memory:demo?cache=shared
+username: sa
+password: sa
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: com.thopham.projects.desktop.demo.domain.repository.SQLiteDialect
+  application:
+    name: demo
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: FULL
+server:
+  port: 1110
+debug:
+  enabled: true
+
+#logging:
+#  level:
+#    root: OFF

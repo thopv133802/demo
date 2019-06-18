@@ -41,6 +41,8 @@ class RxCPTService(val userService: RxUserService, val deviceAPI: DeviceAPI, val
             Pair(token, restaurantId)
         })
                 .flatMap {(token, restaurantId) ->
+                    println("Token: $token")
+                    println("Restaurant ID:  $restaurantId")
                     val deviceId = deviceAPI.fetchMacAddress()
                     val categories = categoryAPI.fetchCategories(token, deviceId, restaurantId)
                     val printers = printerAPI.fetchPrinters()

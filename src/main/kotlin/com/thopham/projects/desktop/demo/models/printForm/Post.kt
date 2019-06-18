@@ -11,7 +11,6 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 package com.thopham.projects.desktop.demo.models.printForm
 
 data class Post (
-
 		val res_id : Int,
 		val id_promotion : String?,
 		val cus_name : String,
@@ -20,7 +19,7 @@ data class Post (
 		val typeorder : Int,
 		val order_type : String,
 		val delivery_type : String,
-		val detail : List<Detail>,
+		val detail : List<PrintFormDetail>,
 		val cus_id : Int,
 		val page_id : Int,
 		val cus_mail : String,
@@ -38,7 +37,7 @@ data class Post (
 		val table_floor : String
 ){
 	constructor(): this(0, null, "", "", "", 0,
-			"", "", listOf<Detail>(), 0, 0, "", 0, "", "", "", 0, 0, "", ""
+			"", "", listOf<PrintFormDetail>(), 0, 0, "", 0, "", "", "", 0, 0, "", ""
 			, 0, "", 0, ""
 	)
 }

@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk-13\bin\jpackage" create-app-image -i build/libs -o out -n weSaveAP --main-jar demo-1.0.1.jar --icon src/main/resources/icons/icon.ico

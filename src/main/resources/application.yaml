@@ -25,7 +25,7 @@ feign:
 server:
   port: 1110
 debug:
-  enabled: true
+  enabled: false
 
 #logging:
 #  level:

@@ -58,7 +58,9 @@ class App : Application() {
                 }
             else
                 showAlert("Thông báo", "Vì Khay hệ thống không được hỗ trợ. Ứng dụng sẽ bị đóng. Xin lỗi vì sự bất tiện này."){
+                    Platform.setImplicitExit(true)
                     mPrimaryStage.close()
+                    mAppContext.close()
                 }
         }
         mPrimaryStage.show()
@@ -86,7 +88,9 @@ class App : Application() {
             val closeApp = MenuItem("Exit app").apply{
                 addActionListener {
                     Platform.runLater {
+                        Platform.setImplicitExit(true)
                         mPrimaryStage.close()
+                        mAppContext.close()
                         systemTray.remove(appTrayIcon)
                     }
                 }

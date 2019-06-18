@@ -5,6 +5,7 @@ import com.thopham.projects.desktop.demo.common.FxmlPaths
 import com.thopham.projects.desktop.demo.common.UI
 import com.thopham.projects.desktop.demo.domain.service.rx.RxUserService
 import io.reactivex.disposables.Disposable
+import javafx.fxml.FXML
 import javafx.scene.control.Button
 import javafx.scene.control.PasswordField
 import javafx.scene.control.TextField
@@ -19,6 +20,18 @@ class RxLoginController(val userService: RxUserService){
     lateinit var password: PasswordField
     lateinit var login: Button
 
+    @FXML
+    fun initialize(){
+        userService.userLogged()
+                .observeOn(UI)
+                .subscribe({userLogged ->
+                    if(userLogged)
+                        navigateToSetupView()
+                }, { err->
+                    err.printStackTrace()
+                })
+    }
+
     fun requestLogin(){
         login.isDisable = true
         userService.login(account.text, password.text)
@@ -29,6 +42,7 @@ class RxLoginController(val userService: RxUserService){
                     }
                 }, {
                     showError(it.message)
+                    it.printStackTrace()
                     login.isDisable = false
                 })
     }

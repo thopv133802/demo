@@ -21,8 +21,8 @@ constructor(
 	data class Response constructor(
             val token : String,
             val info : Info,
-            val date_now : Int,
-            val date_end : Int,
+            val date_now : Long,
+            val date_end : Long,
             val token_card : String
 	){
 		constructor(): this("", Info(), 0, 0, "")

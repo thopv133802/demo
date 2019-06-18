@@ -1,7 +1,9 @@
 package com.thopham.projects.desktop.demo.controller.rx
 
 import com.thopham.projects.desktop.demo.App
+import com.thopham.projects.desktop.demo.common.Errors.ACCOUNT_LOGGED_IN_DIFFERENT_LOCATION
 import com.thopham.projects.desktop.demo.common.FxmlPaths
+import com.thopham.projects.desktop.demo.common.FxmlPaths.LOGIN
 import com.thopham.projects.desktop.demo.common.UI
 import com.thopham.projects.desktop.demo.customViews.MaterialButton
 import com.thopham.projects.desktop.demo.domain.service.rx.RxCPTService
@@ -59,12 +61,12 @@ class RxSetupController(val cptService: RxCPTService, val userService: RxUserSer
                                 .subscribe({
                                     println("saved")
                                 }, {err ->
-                                    App.showAlert("Lỗi", err.message ?: "Lỗi cập nhật máy in. Vui lòng thử lại")
+                                    App.showAlert("Lỗi - 1", err.message ?: "Lỗi cập nhật máy in. Vui lòng thử lại")
                                     err.printStackTrace()
                                 })
                     }
                 }, { err ->
-                    App.showAlert("Lỗi", err.message ?: "Lỗi lấy thông tin các máy in. Vui lòng thử lại")
+                    App.showAlert("Lỗi - 1", err.message ?: "Lỗi lấy thông tin các máy in. Vui lòng thử lại")
                     err.printStackTrace()
                 })
     }
@@ -81,7 +83,7 @@ class RxSetupController(val cptService: RxCPTService, val userService: RxUserSer
                             logoutButton.isDisable = false
                         }
                     }, {err ->
-                        App.showAlert("Lỗi", err.message ?: "Đăng xuất thất bại. Vui lòng thử lại")
+                        App.showAlert("Lỗi - 3", err.message ?: "Đăng xuất thất bại. Vui lòng thử lại")
                         err.printStackTrace()
                         logoutButton.isDisable = false
                     })
@@ -95,7 +97,7 @@ class RxSetupController(val cptService: RxCPTService, val userService: RxUserSer
                         table.refresh()
                         syncButton.isDisable = false
                     }, {err ->
-                        App.showAlert("Lỗi", err.message ?: "Đồng bộ thất bại. Vui lòng thử lại. Cảm ơn.")
+                        App.showAlert("Lỗi - 4", err.message ?: "Đồng bộ thất bại. Vui lòng thử lại. Cảm ơn.")
                         err.printStackTrace()
                         syncButton.isDisable = false
                     })
@@ -108,7 +110,8 @@ class RxSetupController(val cptService: RxCPTService, val userService: RxUserSer
                         println("Done.")
                         testPrintTeaButton.isDisable = false
                     }, {err ->
-                        App.showAlert("Lỗi", err.message ?: "In thử thất bại. Vui lòng thử lại. Cảm ơn.")
+                        App.showAlert("Lỗi - 5", err.message ?: "In thử thất bại. Vui lòng thử lại. Cảm ơn.")
+                        err.printStackTrace()
                         testPrintTeaButton.isDisable = false
                     })
         }
@@ -148,8 +151,11 @@ class RxSetupController(val cptService: RxCPTService, val userService: RxUserSer
                     table.items = FXCollections.observableArrayList(cpts)
                     table.refresh()
                 }, {err ->
-                    App.showAlert("Lỗi", err.message ?: "...")
                     err.printStackTrace()
+                    App.showAlert("Lỗi - 6", err.message ?: "..."){
+                        if(!err.message.isNullOrBlank() && err.message == ACCOUNT_LOGGED_IN_DIFFERENT_LOCATION)
+                            App.navigateTo(LOGIN)
+                    }
                 })
     }
 
@@ -160,7 +166,7 @@ class RxSetupController(val cptService: RxCPTService, val userService: RxUserSer
                     restaurantName.text = user.restaurantName
                     userName.text = user.username
                 }, { err ->
-                    App.showAlert("Lỗi", err.message ?: "...")
+                    App.showAlert("Lỗi - 7", err.message ?: "...")
                     err.printStackTrace()
                 })
     }
@@ -177,7 +183,8 @@ class RxSetupController(val cptService: RxCPTService, val userService: RxUserSer
                                 .subscribe({
                                     isDisable = false
                                 }, {err ->
-                                    App.showAlert(" Lỗi", err.message ?: "...")
+                                    App.showAlert(" Lỗi - 8", err.message ?: "...")
+                                    err.printStackTrace()
                                     isDisable = false
                                 })
                     }
@@ -205,7 +212,7 @@ class RxSetupController(val cptService: RxCPTService, val userService: RxUserSer
                                 .subscribe({
                                     println("Saved")
                                 }, { err ->
-                                    App.showAlert("Lỗi", err.message ?: "...")
+                                    App.showAlert("Lỗi - 9", err.message ?: "...")
                                     err.printStackTrace()
                                 })
                     }

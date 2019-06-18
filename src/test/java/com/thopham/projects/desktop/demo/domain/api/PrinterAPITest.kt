@@ -2,11 +2,11 @@ package com.thopham.projects.desktop.demo.domain.api
 //
 //import com.itextpdf.html2pdf.ConverterProperties
 //import com.itextpdf.html2pdf.HtmlConverter
-//import com.sun.javafx.print.Units
-//import javafx.print.PageOrientation
-//import javafx.print.Paper
-//import javafx.print.Paper.JAPANESE_POSTCARD
-//import javafx.print.PrinterJob
+//import com.sun.javafx.printByUrl.Units
+//import javafx.printByUrl.PageOrientation
+//import javafx.printByUrl.Paper
+//import javafx.printByUrl.Paper.JAPANESE_POSTCARD
+//import javafx.printByUrl.PrinterJob
 //import javafx.scene.web.WebView
 //import org.apache.pdfbox.pdmodel.PDDocument
 //import org.junit.Test
@@ -16,7 +16,7 @@ package com.thopham.projects.desktop.demo.domain.api
 class PrinterAPITest{
 //    //@Test
 //    fun fromHtmlToPdf(){
-//        val htmlFilePath = javaClass.getResource("/pdfHtmlFiles/bill.html").file
+//        val htmlFilePath = javaClass.getResource("/pdfHtmlFiles/barbep.html").file
 //        val pdfFilePath = javaClass.getResource("/pdfHtmlFiles").path + "/fromHTML.pdf"
 //
 //        val pdfFile = File(pdfFilePath)

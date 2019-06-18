@@ -25,8 +25,8 @@
             <Insets bottom="24.0" />
          </VBox.margin>
       </ImageView>
-    <TextField fx:id="account" onKeyPressed="#onKeyPressed" promptText="Tên tài khoản" text="ducvm@vatgia.com" />
-    <PasswordField fx:id="password" onKeyPressed="#onKeyPressed" promptText="Mật khẩu" text="0000000" />
+    <TextField fx:id="account" onKeyPressed="#onKeyPressed" promptText="Tên tài khoản"/>
+    <PasswordField fx:id="password" onKeyPressed="#onKeyPressed" promptText="Mật khẩu"/>
     <Button fx:id="login" alignment="CENTER" onKeyPressed="#onKeyPressed" onMouseClicked="#onMouseClicked" prefHeight="25.0" prefWidth="300.0" text="Đăng nhập" textAlignment="CENTER" />
   </VBox>
 </AnchorPane>

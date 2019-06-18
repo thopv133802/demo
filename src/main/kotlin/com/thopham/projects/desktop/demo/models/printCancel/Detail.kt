@@ -8,15 +8,29 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 For support, please feel free to contact me at https://www.linkedin.com/in/syedabsar */
-package com.thopham.projects.desktop.demo.models.printForm
+package com.thopham.projects.desktop.demo.models.printCancel
 
-data class RestaurantInfo (
+data class PrintCancelDetail (
+
+	val id : Int,
+	val quantity : Int,
+	val price : Int,
+	val type : String,
+	val principle : Int,
+	val size : String?,
+	val note : String?,
+	val toping : String?,
+	val size_key : String?,
+	val id_opt : Int,
 	val name : String,
-	val phone : String,
-	val address : String,
-	val type_print : List<Int>,
-	val logo : String,
-	val talk : String
+	val doing : Int,
+	val complete : Int,
+	val special_note : String?,
+	val time : Int,
+	val menu_id : Int
 ){
-	constructor(): this("", "", "", listOf<Int>(), "", "")
+	constructor(): this(
+			0, 0, 0,
+			"", 0, null, null, null, null, 0, "", 0, 0, null, 0, 0
+	)
 }

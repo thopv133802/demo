@@ -10,13 +10,25 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 For support, please feel free to contact me at https://www.linkedin.com/in/syedabsar */
 package com.thopham.projects.desktop.demo.models.printForm
 
-data class RestaurantInfo (
+data class PrintFormDetail (
+
+	val id : Int,
+	val quantity : Int,
+	val price : Int,
+	val type : Int,
+	val principle : Int,
+	val note : String?,
+	val size : String?,
+	val toping : String?,
+	val size_key : String?,
+	val id_opt : Int,
+	val special_note : String?,
+	val discount : String?,
+	val time : Int,
+	val cal_by_time : Int,
 	val name : String,
-	val phone : String,
-	val address : String,
-	val type_print : List<Int>,
-	val logo : String,
-	val talk : String
+	val total : String,
+	val menu_id : Int
 ){
-	constructor(): this("", "", "", listOf<Int>(), "", "")
+	constructor(): this(0, 0, 0, 0, 0, null, null, null, null, 0, null, null, 0, 0, "", "", 0)
 }

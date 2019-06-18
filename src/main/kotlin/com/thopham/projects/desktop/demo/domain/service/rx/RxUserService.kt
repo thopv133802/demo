@@ -105,4 +105,14 @@ open class RxUserService (val userAPI: UserAPI, val userRepository: UserReposito
     fun logout(): Completable {
         return clearLoginInformation()
     }
+
+    fun userLogged(): Single<Boolean> {
+        return Single.fromCallable {
+            fetchCurrentUserInformation()
+        }
+                .subscribeOn(IO)
+                .map {user: User? ->
+                    user != null
+                }
+    }
 }

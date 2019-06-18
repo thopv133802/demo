@@ -1,6 +1,7 @@
 package com.thopham.projects.desktop.demo.domain.api
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand
+import com.thopham.projects.desktop.demo.common.Errors.ACCOUNT_LOGGED_IN_DIFFERENT_LOCATION
 import com.thopham.projects.desktop.demo.domain.api.responseModels.FetchMenuResponse
 import com.thopham.projects.desktop.demo.models.Category
 import org.springframework.cloud.openfeign.FeignClient
@@ -16,8 +17,11 @@ class CategoryAPI(val categoryClient: CategoryClient) {
     fun fetchCategories(token: String, deviceId: String, restaurantId: Int): List<Category>{
         val response =  categoryClient.fetchRestaurantInformation(token, deviceId, restaurantId)
         val isFail = !response.status
-        if(isFail)
+        if(isFail && response.mes == "Need to login to view this")
+            throw Exception(ACCOUNT_LOGGED_IN_DIFFERENT_LOCATION)
+        else if(isFail)
             throw Exception(response.mes)
+
         val menus = response.response!!.menu
         val categories = mutableListOf<Category>()
         for (menu in menus){
@@ -30,12 +34,6 @@ class CategoryAPI(val categoryClient: CategoryClient) {
         }
         return categories
     }
-//    fun fetchRegularPrintForm(data: String): String{
-//        return categoryClient.fetchPrintForm(1, 0, data)
-//    }
-//    fun fetchPrintTeaForm(data: String): String{
-//        return categoryClient.fetchPrintForm(0, 1, data)
-//    }
 }
 @FeignClient(name = "categoryClient", url = "https://api.wesave.vn/")
 interface CategoryClient{
@@ -46,7 +44,5 @@ interface CategoryClient{
     private fun getInfoResTimeout(token: String, deviceId: String, restaurantId: Int, get: String): FetchMenuResponse {
         throw Exception("Kết nối quá hạn. Vui lòng kiểm tra lại mạng và thử lại")
     }
-//    @GetMapping("/printform")
-//    fun fetchPrintForm(@RequestParam("print") isRegularPrint: Int = 0, @RequestParam("print_tea") isPrintTea: Int = 0, @RequestParam("data") dataEncoded: String): String
 }
 

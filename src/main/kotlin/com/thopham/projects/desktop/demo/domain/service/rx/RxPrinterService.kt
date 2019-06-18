@@ -8,8 +8,11 @@ import com.thopham.projects.desktop.demo.domain.repository.PrintTeaRepository
 import com.thopham.projects.desktop.demo.models.CPT
 import com.thopham.projects.desktop.demo.models.IDs
 import com.thopham.projects.desktop.demo.models.Printer
+import com.thopham.projects.desktop.demo.models.printCancel.CancelDataPrint
+import com.thopham.projects.desktop.demo.models.printCancel.PrintCancelDetail
 import com.thopham.projects.desktop.demo.models.printForm.DataPrint
-import com.thopham.projects.desktop.demo.models.printTeaForm.Detail
+import com.thopham.projects.desktop.demo.models.printForm.PrintFormDetail
+import com.thopham.projects.desktop.demo.models.printTeaForm.PrintTeaDetail
 import io.reactivex.Completable
 import io.reactivex.Single
 import org.springframework.stereotype.Component
@@ -29,58 +32,66 @@ class RxPrinterService(val printerAPI: PrinterAPI, val cptRepository: CPTReposit
     fun requestTestPrinter(cpt: CPT): Completable{
         if(cpt.printer.isNotPrinter()) return Completable.error(Exception("Bạn chưa thiết lập máy in, vui lòng thiết lập máy in và thử lại. Cảm ơn."))
         return Completable.fromAction {
-            val url = REGULAR_PRINT_FORM_URL
-            printerAPI.print(cpt.printer, url)
+            printerAPI.printByUrl(cpt.printer, REGULAR_PRINT_FORM_URL)
         }
                 .subscribeOn(IO)
     }
     fun print(totalDataPrint: DataPrint): Completable{
         return Completable.fromAction{
             val restaurantId = totalDataPrint.post.res_id
-            val details = totalDataPrint.post.detail
-            val detailsGrouped = details.groupBy {detail ->
+            val totalDetails = totalDataPrint.post.detail
+            //Group details by menu id
+            val detailByMenuId = totalDetails.groupBy { detail ->
                 detail.menu_id
             }
-            val menuIds = detailsGrouped.keys
-            val dataPrints = detailsGrouped.mapValues {(_, details) ->
-                totalDataPrint.copy(
-                        post = totalDataPrint.post.copy(
-                                detail = details
-                        )
-                )
-            }
-            val cpts = dataPrints.mapValues { (menuId, _) ->
+            val menuIds = detailByMenuId.keys
+            //Get printer for each menu id and group by printer
+            val menuIdsByPrinter = mutableMapOf<Printer, MutableList<Int>>()
+            for(menuId in menuIds){
                 val cptOptional = cptRepository.findOneByIds(
-                        IDs(
-                                restaurantID = restaurantId,
-                                menuID = menuId
-                        )
+                        IDs(restaurantID = restaurantId, menuID = menuId)
                 )
                 val cptIsNotPresent = !cptOptional.isPresent
-                if(cptIsNotPresent) throw Exception("Menu ID = $menuId không tồn tại.")
+                if(cptIsNotPresent) throw Exception("Menu ID = $menuId không tồn tại hoặc chưa có dữ liệu.")
                 val cpt = cptOptional.get().toModel()
                 if(cpt.printer.isNotPrinter()) throw Exception("Bạn chưa thiết lập máy in cho menu ID = $menuId")
-                cpt
+                if(menuIdsByPrinter[cpt.printer] == null)
+                    menuIdsByPrinter[cpt.printer] = mutableListOf(menuId)
+                else
+                    menuIdsByPrinter[cpt.printer]!!.add(menuId)
             }
-            for(menuId in menuIds){
-                val cpt = cpts[menuId] ?: throw Exception("???: No way")
-                val dataPrint = dataPrints[menuId] ?: throw Exception("???: No way")
+            val printers = menuIdsByPrinter.keys
+            //Generate DataPrint for each printer
+            val dataPrintByPrinter = mutableMapOf<Printer, DataPrint>()
+            for(printer in printers){
+                val details_ = mutableListOf<PrintFormDetail>()
+                val menuIds_ = menuIdsByPrinter[printer]!!
+                for(menuId in menuIds_)
+                    details_.addAll(detailByMenuId[menuId]!!)
+                dataPrintByPrinter[printer] = totalDataPrint.copy(
+                        post = totalDataPrint.post.copy(
+                                detail = details_
+                        )
+                )
+            }
+            //Print dataprint for each printer
+            for ((printer, dataPrint) in dataPrintByPrinter){
                 val printFormUrl = printFormAPI.fetchPrintFormUrl(dataPrint)
-                printerAPI.print(cpt.printer, printFormUrl)
+                printerAPI.printByUrl(printer, printFormUrl)
             }
         }
                 .subscribeOn(IO)
     }
 
-    fun printTea(restId: Int, details: List<Detail>): Completable {
+    fun printTea(restId: Int, details: List<PrintTeaDetail>): Completable {
         return Completable.fromAction {
-            val url = printFormAPI.fetchPrintTeaFormUrl(details)
+            val contents = printFormAPI.fetchPrintTeaFormContents(details)
             if(printTeaRepository.existsById(restId)){
                 val printTea = printTeaRepository.getOne(restId)
                 val printer = printTea.toModel().printer
                 if(printer.isNotPrinter())
                     throw Exception("Bạn chưa thiết lập máy in tem. Vui lòng thiết lập máy in tem và thử lại. Cám ơn.")
-                printerAPI.printTea(printer, url)
+                printerAPI.printTeaByContents(printer, contents)
             }
             else
                 throw Exception("Bạn chưa thiết lập máy in tem. Vui lòng thiết lập máy in tem và thử lại. Cám ơn.")
@@ -92,7 +103,53 @@ class RxPrinterService(val printerAPI: PrinterAPI, val cptRepository: CPTReposit
         return Completable.fromAction {
             if(printer.isNotPrinter())
                 throw Exception("Bạn chưa thiết lập máy in tem. Vui lòng thiết lập máy in tem và thử lại. Cảm ơn.")
-            printerAPI.printTea(printer, TEA_PRINT_FORM_URL)
+            printerAPI.printTeaByUrl(printer, TEA_PRINT_FORM_URL)
+        }
+                .subscribeOn(IO)
+    }
+
+    fun printCancel(restaurantId: Int, totalDataPrint: CancelDataPrint): Completable {
+        return Completable.fromAction{
+            val totalDetails = totalDataPrint.post.detail
+            //Group details by menu id
+            val detailByMenuId = totalDetails.groupBy { detail ->
+                detail.menu_id
+            }
+            val menuIds = detailByMenuId.keys
+            //Get printer for each menu id and group by printer
+            val menuIdsByPrinter = mutableMapOf<Printer, MutableList<Int>>()
+            for(menuId in menuIds){
+                val cptOptional = cptRepository.findOneByIds(
+                        IDs(restaurantID = restaurantId, menuID = menuId)
+                )
+                val cptIsNotPresent = !cptOptional.isPresent
+                if(cptIsNotPresent) throw Exception("Menu ID = $menuId không tồn tại hoặc chưa có dữ liệu.")
+                val cpt = cptOptional.get().toModel()
+                if(cpt.printer.isNotPrinter()) throw Exception("Bạn chưa thiết lập máy in cho menu ID = $menuId")
+                if(menuIdsByPrinter[cpt.printer] == null)
+                    menuIdsByPrinter[cpt.printer] = mutableListOf(menuId)
+                else
+                    menuIdsByPrinter[cpt.printer]!!.add(menuId)
+            }
+            val printers = menuIdsByPrinter.keys
+            //Generate DataPrint for each printer
+            val dataPrintByPrinter = mutableMapOf<Printer, CancelDataPrint>()
+            for(printer in printers){
+                val details_ = mutableListOf<PrintCancelDetail>()
+                val menuIds_ = menuIdsByPrinter[printer]!!
+                for(menuId in menuIds_)
+                    details_.addAll(detailByMenuId[menuId]!!)
+                dataPrintByPrinter[printer] = totalDataPrint.copy(
+                        post = totalDataPrint.post.copy(
+                                detail = details_
+                        )
+                )
+            }
+            //Print dataprint for each printer
+            for ((printer, dataPrint) in dataPrintByPrinter){
+                val printFormUrl = printFormAPI.fetchPrintFormUrl(dataPrint)
+                printerAPI.printByUrl(printer, printFormUrl)
+            }
         }
                 .subscribeOn(IO)
     }

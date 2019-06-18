@@ -1,8 +1,9 @@
 package com.thopham.projects.desktop.demo.controller.rx
 
 import com.thopham.projects.desktop.demo.domain.service.rx.RxPrinterService
+import com.thopham.projects.desktop.demo.models.printCancel.CancelDataPrint
 import com.thopham.projects.desktop.demo.models.printForm.DataPrint
-import com.thopham.projects.desktop.demo.models.printTeaForm.Detail
+import com.thopham.projects.desktop.demo.models.printTeaForm.PrintTeaDetail
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
@@ -46,6 +47,22 @@ class RxPrinterController(val printerService: RxPrinterService){
             )
         }
     }
+    @PostMapping("/printCancel")
+    fun cancel(@RequestBody input: CancelInput): CancelOutput{
+        return try {
+            printerService.printCancel(input.res_id, input.dataPrint).blockingAwait()
+            CancelOutput(
+                    true,
+                    "Đang tiến hành in..."
+            )
+        }
+        catch (exception: Exception){
+            CancelOutput(
+                    false,
+                    "Lỗi: ${exception.message}"
+            )
+        }
+    }
     data class PrintInput(
             val dataPrint: DataPrint
     ){
@@ -57,11 +74,18 @@ class RxPrinterController(val printerService: RxPrinterService){
     )
     data class PrintTeaInput(
             val res_id: Int,
-            val data_tem: List<Detail>
+            val data_tem: List<PrintTeaDetail>
     )
     data class PrintTeaOutput(
             val status: Boolean,
             val message: String
     )
-
+    data class CancelInput(
+            val res_id: Int,
+            val dataPrint: CancelDataPrint
+    )
+    data class CancelOutput(
+            val status: Boolean,
+            val message: String
+    )
 }

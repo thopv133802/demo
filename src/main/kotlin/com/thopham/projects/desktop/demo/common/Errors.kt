@@ -12,4 +12,5 @@ object Errors {
     const val INTERNAL_ERROR = "Đã có lỗi xảy ra trong quá trình xử lý. Vui lòng thử lại"
     const val PASSWORD_IS_BLANK: String = "Mật khẩu không được để trống"
     const val ACCOUNT_IS_BLANK: String = "Tài khoản không được để trống"
+    const val ACCOUNT_LOGGED_IN_DIFFERENT_LOCATION = "Cảnh báo: Có người đã đăng nhập tài khoản này ở một nơi khác. Bạn cần đăng nhập lại để tiếp tục!"
 }
